@@ -3,8 +3,8 @@ let heading=document.createElement("div");
 heading.className="heading";
 heading.innerHTML="<h5>திருக்குறள்/THIRUKKURAL</h5>";
 document.body.append(heading);
-//SEARCH BAR
 
+//SEARCH BAR 
 let searchBar=document.createElement("div");
 searchBar.className="serch-bar"
 searchBar.innerHTML =`
@@ -24,7 +24,7 @@ searchBar.innerHTML =`
 `
 document.body.append(searchBar);
 
-//SERCH VALUE TRANSFER & CLEAR SCREEN
+//SERCH VALUE FROM SEARCH TRANSFER & CLEAR SCREEN
 function Search(){
     var carbagecheck = document.getElementsByClassName('over-all-container');
     var carbagecheckerr = document.getElementsByClassName('error');
