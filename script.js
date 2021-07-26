@@ -43,7 +43,6 @@ function Search(){
 //get data from api
 async function getdata(){
     let number=localStorage.getItem("number");
-    console.log(number)
     const userData=await fetch(`https://api-thirukkural.vercel.app/api?num=${number}`,
     {
         method:"GET"
@@ -52,7 +51,6 @@ async function getdata(){
     try{
         const data=await userData.json();
         loadData(data);
-        console.log(data);  
     }
     catch(err){
         const userList = document.createElement("div");
@@ -112,13 +110,5 @@ function loadData(data){
     `
     div1.append(card);
     document.body.append(div1);
-    //footer();
 }
 
-
-/*function footer(){
-let footer=document.createElement("footer");
-footer.className="heading";
-footer.innerHTML="<h5>திருக்குறள்/THIRUKKURAL</h5>";
-document.body.append(footer);
-}*/
