@@ -57,6 +57,7 @@ body{
     border-radius: 50px;
     color: #424242;
     font-weight: 500;
+    font-size: 1.2em;
   }
  .search{
    outline: none;
