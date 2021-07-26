@@ -24,7 +24,7 @@ searchBar.innerHTML =`
 `
 document.body.append(searchBar);
 
-//SERCH TRANSFER & CLEAR SCREEN
+//SERCH VALUE TRANSFER & CLEAR SCREEN
 function Search(){
     var carbagecheck = document.getElementsByClassName('over-all-container');
     var carbagecheckerr = document.getElementsByClassName('error');
