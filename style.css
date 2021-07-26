@@ -10,6 +10,8 @@ body{
   font-weight: 600;
   font-size:3em;
 }
+
+/* WHOLE CARD FONT STYLE AND SOME OTHER CSS...*/
 .over-all-container{
     background: white;
     border-radius: 24px;
@@ -84,7 +86,7 @@ body{
     font-size:20px;
     font-weight:bold;
   }
- /*TAMIL LETTER FONT SIZE*/
+ /*TAMIL AND ENGLISH LETTER FONT SIZE AND PADDING AND ETC....*/
  .tamil{
    font-size:1em;
  }
